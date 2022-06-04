@@ -18,7 +18,7 @@ function setup() {
 
 function draw() {
     document.getElementById("square_width").innerHTML = "Width and height of the square is : " + difference + "px"
-    background('008080');
+    background('#008080');
     fill('#38B0D6');
     stroke('#00AAE4');
     square(noseX, noseY, difference);
